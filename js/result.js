@@ -1,4 +1,4 @@
-const URL = 'https://script.google.com/macros/s/AKfycbyvLJRVJnUarWKdQKm7pqthKNvvFjf123_Q7C034xAl6ekXgNzMPS_5mbLojEnCDpbS/exec';
+const URL = 'https://script.google.com/macros/s/AKfycbzmiYy2n7zG4aYAzVP_1ByjwTCyhOwhmpOz2dr48MnBcVNBslov5GMf7mg-CjDjtF0T/exec';
 
 $(document).ready(function() {
 	loadData();
@@ -31,6 +31,21 @@ function oneRow(n, man){
     <tr>
         <th scope="row">${n}</th>
         <td>${man.userName}</td>
+        <td>${man.question1}</td>
+        <td>${man.question2}</td>
+        <td>${man.question3}</td>
+        <td>${man.question4}</td>
+        <td>${man.question5}</td>
+        <td>${man.question6}</td>
+        <td>${man.question7}</td>
+        <td>${man.question8}</td>
+        <td>${man.question9}</td>
+        <td>${man.question10}</td>
+        <td>${man.question11}</td>
+        <td>${man.question12}</td>
+        <td>${man.question13}</td>
+        <td>${man.question14}</td>
+        <td>${man.question15}</td>
         <td>${man.point}</td>
     </tr>`;
     return html;
