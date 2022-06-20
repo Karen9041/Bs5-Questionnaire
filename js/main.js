@@ -1,4 +1,4 @@
-const URL ='https://script.google.com/macros/s/AKfycbyvLJRVJnUarWKdQKm7pqthKNvvFjf123_Q7C034xAl6ekXgNzMPS_5mbLojEnCDpbS/exec';
+const URL ='https://script.google.com/macros/s/AKfycbzmiYy2n7zG4aYAzVP_1ByjwTCyhOwhmpOz2dr48MnBcVNBslov5GMf7mg-CjDjtF0T/exec';
 
 $(document).ready(function(){
     init();
