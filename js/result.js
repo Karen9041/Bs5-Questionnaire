@@ -43,19 +43,19 @@ function result(point){
         html=`
         <article id="article2" class="article2 article-result mt-5 mb-5 d-flex flex-column align-items-center p-3">
         <h2>15-34分</h2>
-        <p>你必須好好重視你的自我意識，並努力的增加自我意識，因為你時常被你的情緒淹沒，不管在任何有壓力的環境、或當你感到挫折傷心，你都很難冷靜以對。</p>
+        <h5>你必須好好重視你的自我意識，並努力的增加自我意識，因為你時常被你的情緒淹沒，不管在任何有壓力的環境、或當你感到挫折傷心，你都很難冷靜以對。</h5>
         </article>`;
     }else if(point>=56){
         html=`
         <article id="article2" class="article2 article-result mt-5 mb-5 d-flex flex-column align-items-center p-3">
         <h2>56-75分</h2>
-        <p>你的自我意識高，你與人之間的關係很好，別人也喜歡投向你的協助、詢問你的意見。你也是能夠執行目標的人，也因此感到成就感。</p>
+        <h5>你的自我意識高，你與人之間的關係很好，別人也喜歡投向你的協助、詢問你的意見。你也是能夠執行目標的人，也因此感到成就感。</h5>
         </article>`;
     }else{
         html=`
         <article id="article2" class="article2 article-result mt-5 mb-5 d-flex flex-column align-items-center p-3">
         <h2>35-55分</h2>
-        <p>你的自我意識還算 ok。有時你還是會因自己的情緒感到喘不過氣，但你不是遇到問題或衝突就會想逃避的人。</p>
+        <h5>你的自我意識還算 ok。有時你還是會因自己的情緒感到喘不過氣，但你不是遇到問題或衝突就會想逃避的人。</h5>
         </article>`;
     }
     
