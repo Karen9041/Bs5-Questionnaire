@@ -1,4 +1,4 @@
-const URL ='https://script.google.com/macros/s/AKfycbynoiBYk_fAHw85S3-i27ErXqhGqp_4JSMoe_U18CyxXudpHZOEnOqEp0o051z5-W_U/exec';
+const URL ='https://script.google.com/macros/s/AKfycbyvLJRVJnUarWKdQKm7pqthKNvvFjf123_Q7C034xAl6ekXgNzMPS_5mbLojEnCDpbS/exec';
 
 $(document).ready(function(){
     init();
@@ -7,6 +7,7 @@ $(document).ready(function(){
 function init(){
     $(`.btn-send`).click(function(e){
         postData();
+        $('.btn-go').removeClass("disabled");
     });
 }
 
@@ -42,8 +43,6 @@ function postData(){
             point+=4;
         }else if($('input[name = Question'+i+']:checked').val() == "非常頻繁"){
             point+=5;
-        }else{
-            alert("ERROR")
         }
     }
     params.point = point;

@@ -1,3 +1,12 @@
 body{
-    background: #ffefd5;
+    background: #FEFAE0;
+}
+footer{
+    background-color: #D4A373;
+}
+.article-result{
+    background-color: #FAEDCD;
+    border: 2px solid #D4A373;
+    border-radius: 10px;
+    height: 200px;
 }
